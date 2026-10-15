@@ -1,0 +1,12 @@
+{
+  "name": "wom-projekt-2-desktop-app",
+  "version": "1.0.0",
+  "description": "Electron desktop client for WebSocket Pastebin",
+  "main": "main.js",
+  "scripts": {
+    "start": "electron ."
+  },
+  "dependencies": {
+    "electron": "^38.1.2"
+  }
+}
