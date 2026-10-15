@@ -1,0 +1,166 @@
+* {
+
+  box-sizing: border-box;
+
+}
+ 
+body {
+
+  margin: 0;
+
+  font-family: Arial, sans-serif;
+
+  background: #f3f4f6;
+
+  color: #111827;
+
+}
+ 
+.wrap {
+
+  max-width: 760px;
+
+  margin: 50px auto;
+
+  padding: 20px;
+
+}
+ 
+.card {
+
+  background: white;
+
+  padding: 28px;
+
+  border-radius: 14px;
+
+  box-shadow: 0 10px 25px rgba(0, 0, 0, 0.08);
+
+}
+ 
+.hidden {
+
+  display: none;
+
+}
+ 
+input,
+
+textarea {
+
+  width: 100%;
+
+  padding: 12px;
+
+  margin: 8px 0;
+
+  border: 1px solid #d1d5db;
+
+  border-radius: 8px;
+
+  font-size: 16px;
+
+}
+ 
+textarea {
+
+  min-height: 300px;
+
+  resize: vertical;
+
+}
+ 
+button {
+
+  border: none;
+
+  border-radius: 8px;
+
+  padding: 11px 16px;
+
+  background: #111827;
+
+  color: white;
+
+  cursor: pointer;
+
+  font-weight: 600;
+
+}
+ 
+.secondary {
+
+  background: #e5e7eb;
+
+  color: #111827;
+
+}
+ 
+.small {
+
+  padding: 7px 10px;
+
+}
+ 
+.topbar,
+
+.buttons,
+
+.status {
+
+  display: flex;
+
+  align-items: center;
+
+  gap: 10px;
+
+}
+ 
+.topbar {
+
+  justify-content: space-between;
+
+}
+ 
+.status {
+
+  margin: 15px 0;
+
+}
+ 
+.dot {
+
+  width: 10px;
+
+  height: 10px;
+
+  border-radius: 50%;
+
+  background: #9ca3af;
+
+}
+ 
+.dot.connected {
+
+  background: green;
+
+}
+ 
+.dot.error {
+
+  background: red;
+
+}
+ 
+.error {
+
+  color: #b91c1c;
+
+}
+ 
+.muted {
+
+  color: #6b7280;
+
+}
+ 

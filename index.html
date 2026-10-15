@@ -1,0 +1,123 @@
+<!doctype html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+ 
+  <title>WebSocket Pastebin Desktop</title>
+ 
+  <link rel="stylesheet" href="styles.css">
+</head>
+ 
+<body>
+ 
+  <main class="wrap">
+ 
+    <section id="loginCard" class="card">
+<h1>WebSocket Pastebin</h1>
+<p class="muted">Desktop app</p>
+ 
+      <input
+
+        id="username"
+
+        type="text"
+
+        placeholder="Username"
+>
+ 
+      <input
+
+        id="password"
+
+        type="password"
+
+        placeholder="Password"
+>
+ 
+      <button id="loginBtn">
+
+        Log in
+</button>
+ 
+      <p id="loginError" class="error"></p>
+</section>
+ 
+    <section id="appCard" class="card hidden">
+ 
+      <div class="topbar">
+<div>
+<h1>Pastebin</h1>
+<p class="muted">Desktop app</p>
+</div>
+ 
+        <button
+
+          id="logoutBtn"
+
+          class="secondary"
+>
+
+          Log out
+</button>
+</div>
+ 
+      <div class="status">
+<span id="statusDot" class="dot"></span>
+ 
+        <span id="statusText">
+
+          Disconnected
+</span>
+ 
+        <button
+
+          id="reconnectBtn"
+
+          class="secondary small"
+>
+
+          Reconnect
+</button>
+</div>
+ 
+      <textarea
+
+        id="pasteText"
+
+        placeholder="Write or paste text here..."
+></textarea>
+ 
+      <div class="buttons">
+<button id="sendBtn">
+
+          Send
+</button>
+ 
+        <button
+
+          id="copyBtn"
+
+          class="secondary"
+>
+
+          Copy
+</button>
+</div>
+ 
+      <p
+
+        id="messageInfo"
+
+        class="muted"
+></p>
+ 
+    </section>
+ 
+  </main>
+ 
+  <script src="renderer.js"></script>
+ 
+</body>
+</html>
+ 
